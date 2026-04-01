@@ -1,0 +1,70 @@
+/* ===== 学知岛 v2.0 Design Tokens ===== */
+
+:root {
+  /* ---- 品牌主色 ---- */
+  --primary-50: #E8F4FD;
+  --primary-100: #BEE0F7;
+  --primary-200: #8AC8EF;
+  --primary-500: #0A6EBD;
+  --primary-600: #085A9A;
+  --primary-700: #064878;
+
+  /* ---- 强调色 / 成功色 ---- */
+  --accent-50: #E6F9F1;
+  --accent-100: #B3EDDA;
+  --accent-500: #12B886;
+  --accent-600: #0EA373;
+  --accent-700: #0A8F60;
+
+  /* ---- 中性色 ---- */
+  --gray-0: #FFFFFF;
+  --gray-50: #F8F9FA;
+  --gray-100: #F1F3F5;
+  --gray-200: #E9ECEF;
+  --gray-300: #DEE2E6;
+  --gray-400: #ADB5BD;
+  --gray-500: #868E96;
+  --gray-700: #495057;
+  --gray-800: #343A40;
+  --gray-900: #212529;
+
+  /* ---- 功能色 ---- */
+  --error: #FA5252;
+  --error-bg: #FFF5F5;
+  --warning: #FD7E14;
+  --warning-bg: #FFF8E1;
+  --success: #12B886;
+  --success-bg: #E6F9F1;
+  --info: #339AF0;
+  --info-bg: #E7F5FF;
+
+  /* ---- 字体 ---- */
+  --font-sans: "Inter", "PingFang SC", "HarmonyOS Sans SC",
+               "Microsoft YaHei", "Helvetica Neue", sans-serif;
+  --font-mono: "JetBrains Mono", "Fira Code", "Source Code Pro", monospace;
+
+  /* ---- 圆角 ---- */
+  --radius-sm: 6px;
+  --radius-md: 10px;
+  --radius-lg: 14px;
+  --radius-xl: 20px;
+  --radius-full: 999px;
+
+  /* ---- 阴影 ---- */
+  --shadow-xs: 0 1px 2px rgba(0, 0, 0, 0.05);
+  --shadow-sm: 0 2px 8px rgba(0, 0, 0, 0.06);
+  --shadow-md: 0 4px 16px rgba(0, 0, 0, 0.08);
+  --shadow-lg: 0 8px 32px rgba(0, 0, 0, 0.10);
+  --shadow-xl: 0 16px 48px rgba(0, 0, 0, 0.12);
+
+  /* ---- 间距 ---- */
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-5: 20px;
+  --space-6: 24px;
+  --space-8: 32px;
+  --space-10: 40px;
+  --space-12: 48px;
+}
